@@ -1,0 +1,307 @@
+/***********/
+/* General */
+/***********/
+
+.clearfix{
+    clear: both;
+}
+
+.clearfix:after{
+    content:"";
+    display: table;
+    clear: both;
+}
+
+main{
+    padding:16px;
+    background-color: #f6f6f6;
+}
+
+main > h1{
+    font-size:48px;
+    color:#4a555a;
+    margin-bottom: 24px;
+}
+
+section > h1{
+    font-size: 36px;
+    font-weight:500;
+    color: #4a555a;
+    margin-bottom: 16px; 
+}
+
+section + section{
+    margin-top: 48px;
+}
+
+.panel{
+    border:1px solid #eaeaea;
+    background: #FFF;
+}
+
+.info-panel{
+    font-size:11px;
+    font-family:verdana;
+}
+
+div + .info-panel{
+    margin-top: 8px;
+}
+
+div > button:first-child{
+    margin-left: 0;
+}
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+input, button, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+body {
+    color: #4A555A;
+    font-family: arial,helvetica,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.1;
+    margin-bottom: 8px;
+}
+
+h1 {
+    font-family: inherit;
+    color: #333;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#reports-slider .group-stats h2, #reports-slider .group-graph h2, #reports-body li h2, #view-class .course-info h1, ul.jqtree_common.jqtree-tree .jqtree-folder.level-1 > div span.jqtree-title, h3 {
+    font-family: inherit;
+    color: #4A555A;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+#simple #teacher-group-feedback-form .assignment-feedback-wrapper label, #reports-slider .group-stats h3, ul.jqtree_common.jqtree-tree .jqtree-folder > div span.jqtree-title, ul.jqtree_common.jqtree-tree .jqtree-folder.level-1 > .completed-percentage, h4 {
+    font-family: arialMedium,arial,helvetica,sans-serif;
+    color: #4A555A;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+h6 {
+    letter-spacing: 0.02rem;
+    text-transform: uppercase;
+    font-family: arial,helvetica,sans-serif;
+    color: #333;
+    font-size: 11px;
+    font-weight: 400;
+}
+
+p {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.block, .panel {
+    display: block;
+    background: #FCFCFC;
+    border-radius: 2px;
+    box-shadow: 2px 2px 0px rgba(0,0,0,0.05);
+    margin: 0 0 16px 0;
+    padding: 0;
+    position: relative;
+}
+
+    .block > p, .block > li, .block > ol, .block > ul, .block > a, .block > h1, .block > h2, .block > h3, .block > h4, .block > h5, .block > h6, .panel > p, .panel > li, .panel > ol, .panel > ul, .panel > a, .panel > h1, .panel > h2, .panel > h3, .panel > h4, .panel > h5, .panel > h6 {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .block p:last-child, .panel p:last-child {
+        margin-bottom: 0;
+        padding-bottom: 8px;
+    }
+
+    .block header, .block > div.panel-header, .block .panel-header, .panel header, .panel > div.panel-header, .panel .panel-header {
+        background-color: #F6F6F6;
+        margin: 0px;
+        padding: 0 16px;
+        border-bottom: 1px solid #EAEAEA;
+        border-top-right-radius: 2px;
+        border-top-left-radius: 2px;
+    }
+
+        .block header p, .block header h1, .block header h2, .block header h3, .block header h4, .block header h5, .block header h6, .block > div.panel-header p, .block > div.panel-header h1, .block > div.panel-header h2, .block > div.panel-header h3, .block > div.panel-header h4, .block > div.panel-header h5, .block > div.panel-header h6, .block .panel-header p, .block .panel-header h1, .block .panel-header h2, .block .panel-header h3, .block .panel-header h4, .block .panel-header h5, .block .panel-header h6, .panel header p, .panel header h1, .panel header h2, .panel header h3, .panel header h4, .panel header h5, .panel header h6, .panel > div.panel-header p, .panel > div.panel-header h1, .panel > div.panel-header h2, .panel > div.panel-header h3, .panel > div.panel-header h4, .panel > div.panel-header h5, .panel > div.panel-header h6, .panel .panel-header p, .panel .panel-header h1, .panel .panel-header h2, .panel .panel-header h3, .panel .panel-header h4, .panel .panel-header h5, .panel .panel-header h6 {
+            display: inline-block;
+            margin: 0 8px 0 0;
+        }
+
+        .block header h1, .block header h2, .block > div.panel-header h1, .block > div.panel-header h2, .block .panel-header h1, .block .panel-header h2, .panel header h1, .panel header h2, .panel > div.panel-header h1, .panel > div.panel-header h2, .panel .panel-header h1, .panel .panel-header h2 {
+            font-size: 20px;
+            line-height: 48px;
+        }
+
+        .block header h3, .block header h4, .block header h5, .block header h6, .block > div.panel-header h3, .block > div.panel-header h4, .block > div.panel-header h5, .block > div.panel-header h6, .block .panel-header h3, .block .panel-header h4, .block .panel-header h5, .block .panel-header h6, .panel header h3, .panel header h4, .panel header h5, .panel header h6, .panel > div.panel-header h3, .panel > div.panel-header h4, .panel > div.panel-header h5, .panel > div.panel-header h6, .panel .panel-header h3, .panel .panel-header h4, .panel .panel-header h5, .panel .panel-header h6 {
+            line-height: 40px;
+        }
+
+        .block header .links, .block > div.panel-header .links, .block .panel-header .links, .panel header .links, .panel > div.panel-header .links, .panel .panel-header .links {
+            display: inline-block;
+            line-height: 48px;
+        }
+
+    .block .panel, .panel .panel {
+        box-shadow: none;
+    }
+
+.panel-subheader {
+    background-color: #F6F6F6;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 16px;
+    border-top: 1px solid #EAEAEA;
+    border-bottom: 1px solid #EAEAEA;
+}
+
+    .panel-subheader p, .panel-subheader h1, .panel-subheader h2, .panel-subheader h3, .panel-subheader h4, .panel-subheader h5, .panel-subheader h6 {
+        display: inline-block;
+        line-height: 40px;
+        margin: 0 8px 0 0;
+    }
+
+.panel-body {
+    padding: 0 16px 12px;
+    margin-top: 12px;
+}
+
+/****************/
+/* Colour boxes */
+/****************/
+
+.box{
+	width:200px;
+	height:20px;
+	font-family: arial,helvetica,sans-serif;
+    font-size: 12px;
+	padding: 10px;
+}
+ 
+.green{
+	background:#b4cf49;
+	color:#333;
+}
+.pale-green{
+	background:#e0edad;
+	color:#333;
+}
+.navy{
+	background:#174169;
+	color:#FFFFFF;
+}
+.mid-blue{
+	background:#139CE0;
+	color:#333;
+}
+.yellow{
+	background:#FAC02B;
+	color:#333;
+}
+ 
+/***********/
+/* Buttons */
+/***********/
+
+   .btn-prime {
+        background: #FAC02B;
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #FCD874), color-stop(50%, #FAC02B));
+        background: -webkit-linear-gradient(top, #FCD874 50%, #FAC02B 50%);
+        background: linear-gradient(to bottom, #FCD874 50%, #FAC02B 50%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FCD874', endColorstr='#FAC02B',GradientType=0 );
+        height: 32px;
+        line-height: 30px;
+        box-sizing: border-box;
+        color: #333;
+        font-family: arial,helvetica,sans-serif;
+        font-size: 11px;
+        font-weight: normal;
+        padding: 0 10px;
+        margin: 0 0 0 8px;
+        border: 1px solid #ddd;
+        border-radius: 2px;
+        min-width: 80px;
+        box-shadow: 2px 2px 0px rgba(0,0,0,0.05);
+        display: inline-block;
+        vertical-align: middle;
+        text-align: center;
+        cursor: pointer;
+        border-color: #FAC02B;
+        color: #333;
+    }
+
+button, .btn-sec {
+    background: #174169;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #235688), color-stop(50%, #F6F6F6));
+    background: -webkit-linear-gradient(top, #235688 50%, #174169 50%);
+    background: linear-gradient(to bottom, #235688 50%, #174169 50%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#235688', endColorstr='#174169',GradientType=0 );
+    height: 32px;
+    line-height: 30px;
+    box-sizing: border-box;
+    color: #ffffff;
+    font-family: arial,helvetica,sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+    padding: 0 10px;
+    margin: 0 0 0 8px;
+    border: 1px solid #174169;
+    border-radius: 2px;
+    min-width: 80px;
+    box-shadow: 2px 2px 0px rgba(0,0,0,0.05);
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+}
+
+    button:hover, .btn-hover {
+        color: #333333;
+        -webkit-filter: none;
+        filter: none;
+        background: #FFFFFF;
+        border-color: #139CE0;
+        text-decoration: none;
+    }
+
+    button:disabled, button.disabled {
+        color: #9B9E9E;
+        -webkit-filter: none;
+        filter: none;
+        background: #F6F6F6;
+        border-color: #E6E6E6;
+        cursor: default;
+    }
+	
+
+
+
+	
+	
+
+ 
+
+
+
+
